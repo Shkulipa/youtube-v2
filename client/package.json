@@ -1,0 +1,53 @@
+{
+  "name": "client",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "eslint:check": "next lint",
+    "eslint:fix": "eslint \"**/*.{js,jsx,ts,tsx}\" --fix"
+  },
+  "dependencies": {
+    "@headlessui/react": "^1.6.6",
+    "@reduxjs/toolkit": "^1.8.3",
+    "@tanstack/react-query": "^4.1.3",
+    "axios": "^0.27.2",
+    "classnames": "^2.3.1",
+    "dayjs": "^1.11.4",
+    "lodash": "^4.17.21",
+    "next": "12.2.3",
+    "nextjs-progressbar": "^0.0.14",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-hook-form": "^7.34.0",
+    "react-icons": "^4.4.0",
+    "react-loading-skeleton": "^3.1.0",
+    "react-redux": "^8.0.2",
+    "react-redux-toastr": "^7.6.9",
+    "redux-persist": "^5.10.0",
+    "sass": "^1.54.0"
+  },
+  "devDependencies": {
+    "@trivago/prettier-plugin-sort-imports": "^3.3.0",
+    "@types/lodash": "^4.14.182",
+    "@types/node": "18.6.1",
+    "@types/react": "18.0.15",
+    "@types/react-dom": "18.0.6",
+    "@types/react-redux-toastr": "^7.6.2",
+    "@types/redux-persist": "^4.3.1",
+    "@typescript-eslint/eslint-plugin": "^5.31.0",
+    "@typescript-eslint/parser": "^5.31.0",
+    "autoprefixer": "^10.4.8",
+    "eslint": "8.20.0",
+    "eslint-config-next": "12.2.3",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "postcss": "^8.4.14",
+    "prettier": "^2.7.1",
+    "tailwindcss": "^3.1.7",
+    "typescript": "4.7.4"
+  }
+}

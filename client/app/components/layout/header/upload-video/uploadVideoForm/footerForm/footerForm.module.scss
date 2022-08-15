@@ -1,0 +1,20 @@
+.footer {
+  @apply flex justify-between w-full;
+  align-items: center;
+  height: min-content;
+
+  .status {
+    @apply flex items-center gap-1;
+
+    .upload-icon,
+    .check-icon {
+      fill: #FF7652;
+      width: 25px;
+      height: 25px;
+    }
+
+    > span {
+      @apply text-gray-400;
+    }
+  }
+}

@@ -1,0 +1,41 @@
+.wrapper {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin: 15px 0;
+
+  .switch {
+    @apply relative;
+    $width: 70px;
+    $height: calc($width / 2);
+    $border-radius: calc($height / 2);
+
+    width: $width;
+    height: $height;
+    border-radius: $border-radius;
+    transition: all .4s ease-in-out;
+
+    .point {
+      @apply block absolute;
+
+      width: calc($width / 2);
+      height: $height;
+
+      content: "";
+      background: white;
+      border-radius: calc($height / 2);
+      transform: translateY(-50%);
+
+      &.position-left {
+        left: 0;
+      }
+
+      &.position-right {
+        left: calc(100% - calc($width / 2));
+      }
+
+      transition: all .4s ease-in-out;
+    }
+  }
+}
+
